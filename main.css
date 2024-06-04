@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('img/fish.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.cabecalho {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 2;
+    padding: 2% 5% 0 5%;
+}
+
+.img-top {
+    display: flex;
+    gap: 5%;
+    z-index: 2;
+}
+
+.texto-meio {
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30%;
+}
