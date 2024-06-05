@@ -18,12 +18,6 @@ header {
     color: white;
 }
 
-
-#fundo-home
-{
-    position: ;
-}
-
 .lado-header{
     display: inherit;
     align-items: center;
@@ -64,6 +58,7 @@ header {
 
 
 /* Richardy */
+
 .oceanos-acidos img{
     width: 45%;
     border-radius: 13px;
@@ -77,8 +72,6 @@ header {
 
 .text-oceano h3, .text-oceano h2{
     display: inherit;
-    flex-direction: row;
-    align-items: center;
     width: 75%;
     padding: 2%;
 }
@@ -106,14 +99,103 @@ h4{
 
 .consequencia-oceano h2{
     padding: 2%;
-    display: flex;
-    flex-direction: row;
     text-align: center;
-    align-items: center;
+
 }
 
 .item-oceano img{
     display: inherit;
     align-items: center;
     justify-content: center;
+    border: red 3px solid;
+}
+
+.item-oceano {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.item-oceano h3{
+    width: 75%;
+    align-items: center;
+    text-align: center;
+}
+
+.sorriso {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(29deg, rgba(97,97,97,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.txt-sorriso {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    width: 50%;
+}
+
+.txt-sorriso h2{
+    font-size: 2.5em;
+    padding-bottom: 10%;
+}
+
+.txt-sorriso h3{
+    font-size: 1.2em;
+    padding-bottom: 10%;
+}
+
+.sorriso a{
+    font-size: 1.6em;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 5% 25%;
+    background: linear-gradient(29deg, rgb(9, 25, 73) 0%, rgb(34, 89, 255) 100%);
+    border-radius: 14px;
+}
+
+.impacto-aquecimento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 5%;
+}
+
+.imp-aqueci-txt {
+    display: flex;
+    flex-direction: column;
+    width: 45% ;
+    padding: 5%;
+    border-right: solid black 3px;
+}
+
+.imp-aqueci-txt h3{
+    font-size: 1em;
+    width: 100% ;
+}
+
+.imp-aqueci-txt h2{
+    font-size: 1.5em;
+    padding-bottom: 5%;
+    width: 100% ;
+}
+
+
+.imp-aqueci-txt2 h3{
+    padding: 8%;
+    font-size: 1.2em;
+    width: 60%;
+}
+.imp-aqueci-txt2 {
+    padding-right: 8%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
 }
