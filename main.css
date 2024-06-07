@@ -343,3 +343,188 @@ header {
     display: flex;
     flex-direction: row;
 }
+
+/* Maps */
+
+.maps {
+    display: flex;
+    margin: 5%;
+    justify-content: space-between;
+    gap: 15%;
+}
+
+.maps iframe{
+    width: 100%;
+    height: 60vh;
+}
+
+.maps-text {
+    display: inherit;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.maps-text h2{
+    font-size: 2.5em;
+}
+
+.maps-text h3{
+    font-size: 1.3em;
+}
+
+/* Maps */
+
+/* Profundo */
+
+.profundo {
+    margin: 12%;
+    align-items: center;
+}
+
+.texto-alinhado {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    }
+    
+    .texto-alinhado h2{
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 2.5em
+    }
+    
+    .texto-alinhado h3{
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 1.4em;    
+}
+
+
+/* separação Direita */
+.lixo-plastico {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.plastico-text {
+    display: inherit;
+    gap: 5%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lixo-plastico p{
+    font-size: 1.7em;
+    width: 80%;
+}
+
+.lixo-plastico h2{
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.lixo-plastico img{
+    width: 25vw;
+    height: 40vh;
+}
+/* separação Direita */
+
+
+/* separação Esquerda */
+.acidificacao-oceano{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+.acidificacao-text {
+    display: inherit;
+    gap: 5%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.acidificacao-text p{
+    font-size: 1.7em;
+    width: 80%;
+    margin-left: 25%;
+}
+
+.acidificacao-oceano h2{
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.acidificacao-oceano img{
+    width: 25vw;
+    height: 40vh;
+}
+/* separação Esquerda */
+
+.ttOcean {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-bottom: 5%;
+    gap: 15%;
+}
+
+.temp-oceanos-text {
+    display: inherit;
+    gap: 5%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.temp-oceanos-text p{
+    font-size: 1.7em;
+    width: 100%;
+}
+
+.temp-oceanos h2{
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.temp-oceanos img{
+    width: 25vw;
+    height: 40vh;
+}
+
+/*  */
+
+.cont-nivmar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.nivel-mar-text {
+    display: inherit;
+    gap: 5%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nivel-mar-text p{
+    font-size: 1.7em;
+    width: 80%;
+}
+
+.nivel-mar h2{
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.nivel-mar img{
+    width: 25vw;
+    height: 40vh;
+}
+
+
+
+/* Profundo */

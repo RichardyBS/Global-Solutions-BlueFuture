@@ -88,8 +88,19 @@
             <img src="img/img-homem.png" alt="">
         </section>
         
-        <section>
-            <iframe src="https://www.footprintcalculator.org/" width="100%" height="1000px" frameborder="0" scrolling="auto"></iframe>
+        <section class="maps">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1P-6yjKxT_BR2434raq7jLuWkwgN_VR0&ehbc=2E312F"></iframe>
+            <div class="maps-text">
+                <h2>Como seu lixo pode afetar um oceano inteiro?</h2>
+                    
+                    <h3>O lixo que descartamos, seja em terra ou no mar, tem um impacto devastador nos oceanos, afetando a vida marinha e a saúde humana.</h3>
+                    
+                    <h3>Poluição: O plástico, principalmente, leva em média 400 anos para se decompor no mar, contaminando animais e em alguns casos até  levando-os a morte.</h3>
+                    
+                    <h3>Ingestão Acidental: Animais confundem plásticos com alimento, o que pode levar a obstruções intestinais, desnutrição e morte.</h3>
+
+                    <h3>Impacto nos habitats: O acúmulo de lixo pode destruir habitats marinhos, como recifes de coral, afetando a biodiversidade e a cadeia alimentar.</h3>
+            </div>
         </section>
 
 
@@ -114,7 +125,7 @@
 
 
         <!-- Profundo -->
-        <section>
+        <section class="profundo">
             <div class="texto-alinhado">
                 
                 <h2>Qual os problemas que o oceano enfrenta e sua profundidade?</h2>
@@ -130,7 +141,7 @@
             <div class="lixo-plastico">
                 <div class="plastico">
                     <h2>Lixo, em especial plástico nos oceanos</h2>
-                    <img src="" alt="">
+                    <img src="img/img-eutrofizacao.png" alt="">
                 </div>
 
                 <div class="plastico-text">
@@ -160,7 +171,7 @@
             <div class="acidificacao-oceano">
                 <div class="acidificacao">
                     <h2>Acidificação dos oceanos</h2>
-                    <img src="" alt="">
+                    <img src="img/img-eutrofizacao.png" alt="">
                 </div>
                 <div class="acidificacao-text">
                     <p>
@@ -183,9 +194,11 @@
                 <h3>A Zona da meia noite ou batial inicia-se aos 1000 m de profundidade até a faixa de 3500 m. A luz é quase ausente poucos animais vivem nessa área por apresentar muitas zonas de oxigênio mínimo, . Nesta região é possível encontrar muitas carcaças flutuando, sejam elas de navios ou de tripulantes,  devido à diferença da densidade da água da zona batial com um dos pontos mais profundos dos oceanos zona abissal.</h3>
             </div>
 
+            <div class="ttOcean">
             <div class="temp-oceanos">
                 <h2>Aumento de temperatura dos oceanos</h2>
-                <img src="" alt="">
+                <img src="img/img-eutrofizacao.png" alt="">
+            </div>
                 <div class="temp-oceanos-text">
                     <p>
                         As mudanças climáticas representam uma das maiores ameaças à vida marinha na atualidade. O aumento da temperatura global está impactando os oceanos causando a migração de peixes e outros animais marinhos para áreas mais frias, alterando a distribuição das espécies e impactando os ecossistemas marinhos.
@@ -202,9 +215,11 @@
                 <h3>um ambiente que se estende entre 3500 m e 6500 m, sem entrada de luz solar e uniformemente fria. As espécies que vivem nessa área geralmente são adaptadas à grandes pressões e  à ausência de luz - os animais que vivem aqui são totalmente diferentes dos que conhecemos na superficie entre eles estão: Peixe Abissal também chamado de  “Diabo negro do mar” e a rara Lula Gigante. </h3>
             </div>
 
+            <div class="cont-nivmar">
             <div class="nivel-mar">
                 <h2>Aumento de temperatura dos oceanos</h2>
-                <img src="" alt="">
+                <img src="img/img-eutrofizacao.png" alt="">
+                </div>
                 <div class="nivel-mar-text">
                     <p>
                     O derretimento das geleiras e calotas polares causado pelo aquecimento global pode  inundar áreas costeiras inteiras, ameaçando cidades, infraestrutura e comunidades inteiras. Podendo até inundar cidades e gerar caos e mortes
@@ -220,5 +235,20 @@
     <footer>
 
     </footer>
+
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "136cffc4-6ba3-4096-a258-b642ba93a8ac", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "8d610c74-bc8b-49ef-891f-cf77bf23cc48", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
 </body>
 </html>
