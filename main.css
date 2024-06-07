@@ -11,13 +11,14 @@
 h1,h2,h3
 {
     font-family: "Rubik", sans-serif;
+    font-weight: 600;
 }
 
 p
 {
     font-family: "Piazzolla", serif;
     font-size: clamp(0.929rem, 0.929rem + ((1vw - 0.2rem) * 0.856), 1.4rem);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 header {
@@ -27,16 +28,29 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 2rem 4rem;
-    position: absolute;
+    position: sticky;
     top: 0;
     z-index: 1;
-    color: white;
-    background-color: rgba(0, 41, 46, 0.651);
+    color: #45433a;
+    background-color: #fcfbf0;
+
+}
+
+.lesquerdo-header p
+{
+    padding: 2%;
+    border-left: 2px solid gray;
+    font-weight: 600;
+}
+
+.lesquerdo-header span
+{
+    color: #004AAD;
 }
 
 .home
 {
-    height: 95vh;
+    height: 85vh;
     margin-bottom: 2rem;
 
 }
@@ -47,11 +61,12 @@ header {
     top: 30%;
     text-align: center;
     width: 47%;
-    padding: 3rem 0;
+    padding: 3rem ;
     color: white;
     font-size: 1.3rem;
     border-radius: 12px;
     left: 43%;
+    background-color: #00114bc7;
 
 }
 
@@ -62,10 +77,10 @@ header {
     width: 50%;
     margin-top: 40px;
     border-radius: 12px;
-    background-color: rgba(0, 100, 250, 0.712);
+    background-color: rgba(0, 100, 250, 0.568);
     border: none;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 600;
     cursor: pointer;
     color: white;
 }
@@ -115,12 +130,17 @@ header {
 
     color: white;
     font-size: 2.8rem;
-
+    font-weight: 500;
     border-radius: 12px;
     margin-bottom: 30px;
     text-align: center;
 
     
+}
+
+.home p
+{
+    font-size: 1.7rem ;
 }
 
 
