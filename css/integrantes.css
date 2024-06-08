@@ -395,5 +395,61 @@ footer h3{
     color: #45433a;
 }
 /* Footer Parceiros*/
+/* Check */
+@Media (min-width: 768px)
+{
+    .caixa-inf-grupo-izzi{
+        padding: 16%;
+    }
+    .caixa-inf-grupo-izzi h2{
+        font-size: 1.5em;
+        text-wrap: nowrap;
+    }
+    .caixa-inf-grupo-ruan a{
+        font-size: 1.5em;
+        padding: 10%;
+    }
+    .caixa-inf-grupo-richardy h2{
+        font-size: 1.5em;
+        text-wrap: nowrap;
+    }
+    .caixa-inf-grupo-ruan a{
+        font-size: 1.5em;
+        padding: 10%;
+    }
+    .caixa-inf-grupo-ruan h2{
+        font-size: 1.5em;
+        text-wrap: nowrap;
+    }
+    .caixa-inf-grupo-ruan a{
+        font-size: 1.5em;
+        padding: 10%;
+    }
+}
+/* Check */
+
+/* Check */
+@media (max-width: 992px)
+{
+
+    
+header h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+.lesquerdo-header a {
+    width: 60%;
+    padding: 2%;
+}
+
+.fotogrupo img{
+    width: 70%;
+}
+
+}
+/* Check */
+
+/* Check */
 
 
