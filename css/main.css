@@ -787,4 +787,43 @@ header h1{
     display: flex;
     flex-direction: column;
 }
+.oceanos-acidos img {
+    width: 70%;
+}
+
+main h2{
+    font-size: 1.5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.item-oceano {
+    height: 50vh;
+}
+
+.sorriso img{
+display: none;
+}
+
+.txt-sorriso{
+    width: 100%;
+    padding: 5% 0 ;
+}
+.txt-sorriso h2{
+    font-size: 3em;
+}
+.txt-sorriso p{
+    font-size: 2em;
+}
+
+.txt-sorriso button{
+    padding: 5% 10%;
+}
+
+.maps-text h2{
+    font-size: 2.5em;
+}
 
