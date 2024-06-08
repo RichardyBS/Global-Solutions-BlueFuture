@@ -451,5 +451,25 @@ header h1{
 /* Check */
 
 /* Check */
+@media (max-width: 1200px)
+{
+
+    .caixa-inf-grupo-izzi{
+        padding: 10%;
+    }
+    .caixa-inf-grupo-ruan a{
+        font-size: 1.5em;
+        padding: 10%;
+    }
+    .caixa-inf-grupo-izzi a{
+        font-size: 1.5em;
+        padding: 10%;
+    }
+    .caixa-inf-grupo-richardy a{
+        font-size: 1.5em;
+        padding: 10%;
+    }
+    }
+/* Check */
 
 
