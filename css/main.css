@@ -922,7 +922,66 @@ display: none;
     .item-oceano p{
         font-size: 1em;
     }
+    .txt-sorriso h2{
+        width: 100%;
+        font-size: 1.5em;
+    }
+    /*  */
+    .sorriso img{
+        width: 0;
+        height: 0;
+        
+    }
+
+    .sorriso h2{
+        display: flex;
+        font-size: 1.5em;
+    }
+
+    .txt-sorriso h2{
+        font-size: 1.5em;
+    }
+    /*  */
+
+    .maps-text h2{
+        font-size: 1.5em;
+    }
+
+    .maps-text p{
+        font-size: 0.7em;
+    }
+
+    .maps-text span{
+        font-size: 1em;
+    }
+
+    .maps-text h3{
+        font-size: 1.2em;
+    }
+
+    .maps iframe {
+        width: 50%;
+        height: 30vh;
+    }
+
+    .texto-alinhado h2 {
+        font-size: 1.4em;
+    }
+
+    .texto-alinhado p {
+        font-size: 0.8em;
+    }
+
+    .informacoes p{
+        font-size: 0.8em;
+    }
+
+    .imgs-infos h2{
+        font-size: 1.4em;
+    }
 
 }
 
+
 }
+
