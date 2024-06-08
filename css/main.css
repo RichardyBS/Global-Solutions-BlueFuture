@@ -878,6 +878,51 @@ display: none;
         margin: 0 8%;
         width: 100%;
     }
+    /* Ipad Mini */
+@media (max-width: 768px)
+{
+
+    .lesquerdo-header p{
+        font-size: 0.7em;
+    }
+
+    .lesquerdo-header h1{
+        font-size: 1.2em;
+        display: flex;
+    }
+
+    .ldireito-header h3{
+        font-size: 1em;
+    }
+
+    .txt-home h1{
+        font-size: 1.2em;
+    }
+    
+    .txt-home p{
+        font-size: 0.7em;
+    }
+    
+    .txt-home button{
+        font-size: 0.7em;
+    }
+
+    .oceanos-acidos{
+        font-size: 0.5em;
+    }
+    
+    .oceanos-acidos p{
+        font-size: 1.3em;
+    }
+
+    .item-oceano{
+        height: 44vh;
+    }
+
+    .item-oceano p{
+        font-size: 1em;
+    }
 
 }
 
+}
