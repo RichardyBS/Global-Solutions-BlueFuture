@@ -1089,9 +1089,112 @@ display: none;
             width: 100%;
             height: 300px;
         }
+        .impacto-aquecimento{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        
+        .imp-aqueci-txt{
+            width: 100%;
+            border: none;
+        }
+        
+        .imp-aqueci-txt2{
+            display: flex;
+            padding-top: 4%;
+            margin: 0 8%;
+            width: 100%;
+        }
+        
+        .imp-aqueci-txt2 h3{
+            font-size: 1em;
+            margin-bottom: 5%;
+        }
+        
+        .titulo-profundo h2{
+            font-size: 1.5em;
+        }
+        .titulo-profundo p{
+            font-size: 1em;
+        }
+        
+        .texto-alinhado h2{
+            text-align: center;
+            font-size: 1.2em;
+        }
+        
+        .texto-alinhado p{
+            font-size: 0.9em;
+        }
+        
+        .informacoes-container {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .imgs-infos {
+            width: 100%;
+            
+        }
+        
+        .informacoes{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: 8%;
+        }
+        .informacoes p{
+            font-size: 0.8em;
+            width: 80%;
+            padding-bottom: 5%;
+        }
+        
+        .imgs-infos h2{
+            font-size: 1.5em;
+            text-align: center;
+        }
+        
+        .imgs-infos span{
+            font-size: 1.5em;
+            text-align: center;
+        }
+        
+        .footer-bg h2{
+            display: none;
+        }
+        
+        header {
+            padding: 5%;
+        }
+        
+        .ldireito-header a{
+            font-size: 0.8em;
+        }
+        
+        .lado-header p{
+            position: none;
+            font-size: 0;
+        }
+        
+        .consequencia-oceano{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .item-oceano{
+            margin-bottom: 5%;
+            width: 100%;
+            height: 55vh;
+        }
+        
 
 }
 
 
 }
 
+}
