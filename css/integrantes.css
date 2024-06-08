@@ -471,5 +471,69 @@ header h1{
     }
     }
 /* Check */
+@media (max-width: 576px)
+{
+
+header h1{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.lesquerdo-header p{
+    font-size: 1em;
+}
+
+.lesquerdo-header a {
+    display: flex;
+    padding: 2%;
+}
+
+.fotogrupo img{
+    width: 70%;
+}
+
+.caixa-inf-grupo-izzi{
+    padding: 16%;
+}
+.caixa-inf-grupo-izzi h2{
+    font-size: 1.5em;
+    text-wrap: nowrap;
+}
+.caixa-inf-grupo-izzi a{
+    font-size: 1.5em;
+    padding: 10%;
+}
+.caixa-inf-grupo-richardy h2{
+    font-size: 1.5em;
+    text-wrap: nowrap;
+}
+
+.caixa-inf-grupo-richardy{
+    padding: 12.5%;
+}
+
+.caixa-inf-grupo-richardy a{
+    font-size: 1.5em;
+    padding: 10%;
+}
+.caixa-inf-grupo-ruan h2{
+    font-size: 1.5em;
+    text-wrap: nowrap;
+}
+
+.caixa-inf-grupo-ruan{
+    padding: 12.5%;
+}
+
+.caixa-inf-grupo-ruan a{
+    font-size: 1.5em;
+    padding: 10%;
+}
+
+.footer-bg{
+    display: none;
+}
+/* check */
+}
 
 
