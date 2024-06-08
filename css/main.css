@@ -979,6 +979,74 @@ display: none;
     .imgs-infos h2{
         font-size: 1.4em;
     }
+    /* Iphone4 */
+@media (max-width: 568px)
+{
+
+    .txt-home h1{
+        font-size: 0.8em;
+        }
+
+    .txt-home {
+        padding: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1em;
+    }
+
+    .home{
+        margin: 0;
+    }
+
+    .home button{
+        justify-content: center;
+        padding: 5px 50px;
+        font-size: 0.8em;
+        display: flex;
+    }
+
+    .oceanos-acidos {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .oceanos-acidos h2{
+        font-size: 2em;
+    }
+
+    .oceanos-acidos h3{
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    .oceanos-acidos span{
+        font-size: 1em;
+    }
+
+    .text-oceano {
+        width: 100%;
+        margin: 5%;
+    }
+
+    .oceanos-acidos img{
+        width: 100%;
+        margin-bottom: 20%;
+    }
+
+    #titulo-conse {
+        font-size: 1.5em;
+    }
+
+    .item-oceano h2{
+        font-size: 1.7em;
+    }
+
+    .item-oceano p {
+        font-size: 1em;
+    }
 
 }
 
