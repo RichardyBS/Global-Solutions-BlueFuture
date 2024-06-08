@@ -745,4 +745,46 @@ footer h3{
     height: auto;
 
 }
+.item-oceano {
+    height: 75vh;
+}
+
+}
+
+/* 1080 */
+
+
+@media (max-width: 992px)
+{
+
+    
+header h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+.lesquerdo-header a {
+    width: 60%;
+    padding: 2%;
+}
+
+.line {
+    display: none;
+}
+
+.text-oceano h3 {
+    text-align: center;
+    width: 100%;
+}
+
+.text-oceano {
+    width: 100%;
+    margin-bottom: 5%;
+
+}
+
+.oceanos-acidos{
+    display: flex;
+    flex-direction: column;
+}
 
