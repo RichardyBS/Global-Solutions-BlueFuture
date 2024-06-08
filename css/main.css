@@ -705,3 +705,24 @@ footer h3{
 
 
  }
+ /* 1080 */
+
+@media (max-width: 1080px)
+{
+.sorriso img{
+    width: none;
+    }
+    
+.txt-sorriso h2 {
+    font-size: 1.8em;
+}
+
+.txt-sorriso p {
+    font-size: 1.3em;
+}
+
+.txt-sorriso button{
+        padding: 8% 15%;
+        font-size: 1.6em;
+}
+
