@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pesquisa-denuncia.css">
+    <title>Pegada de Carbono</title>
+</head>
+<body>
+
+    <header>
+        <div class="lesquerdo-header lado-header">
+            <a href="./index.html"><h1>A<I>LL</I> Blue</h1></a>
+            <p>Para um <span>futuro azul</span> aos oceanos</p>
+        </div>
+        
+        <div class="ldireito-header lado-header">
+            <a href="integrantes.html"><h3>Integrantes</h3></a>
+            <a href="pesquisa-denuncia.html"><h3>Pesquisa de Denúncia</h3></a>
+            <a href="carbono.html"><h3>Carbono</h3></a>    
+        </div>
+    </header>
+
+    <main>
+
+        
+
+        <section id="container-cadastro">
+            <div id="cadastro">
+                <h1>Denúncia Anônima de Descarte Inadequado</h1>
+                <form method="get" id="formulario" onsubmit="return denunciar()">
+                    <input type="text" id="logradouro" name="logradouro" placeholder="Rua, Avenida, etc." required minlength="5">
+                    <input type="number" id="numero-residencia" name="numero-residencia" placeholder="Número do ocorrido Ex: 123" min="1" max="9999" required>
+                    <textarea id="descricao" name="descricao" placeholder="Digite uma breve descrição" minlength="5" required></textarea>
+                    <button type="submit" >Enviar minha Denúncia<i class="bi bi-arrow-return-right"></i></button>
+                    <h1 id="mensagem"></h1>
+                </form>
+            </div>
+            
+        </section>
+    </main>
+
+    
+
+    <script src="main.js"></script>
+</body>
+</html>

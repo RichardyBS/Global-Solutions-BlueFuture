@@ -251,3 +251,93 @@ footer h3{
     color: #45433a;
 }
 /* Footer */
+@media (max-width: 1200px)
+{
+header {
+    padding: 2%;
+}
+}
+
+@media (max-width: 576px)
+{
+
+    header{
+        padding: 5%;
+    }
+
+    header h1{
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    .lesquerdo-header p{
+        font-size: 1em;
+        display: none;
+    }
+
+    .lesquerdo-header a {
+        display: flex;
+        padding: 2%;
+    }
+
+}
+
+@media (max-width: 992px)
+{
+    header{
+        padding: 5%;
+    }
+
+    header h1{
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .lesquerdo-header p{
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    .lesquerdo-header a {
+        width: 100%;
+        text-align: center;
+        padding: 2%;
+    }
+}
+
+@media (max-width: 768px){
+    header {
+        padding: 0 6%;
+    }
+}
+
+
+@media (max-width: 576px)
+{
+
+    header{
+        padding: 5%;
+    }
+
+    header h1{
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    .lesquerdo-header p{
+        font-size: 1em;
+        display: none;
+    }
+
+    .lesquerdo-header a {
+        display: flex;
+        width: 60%;
+        text-align: center;
+        padding: 2% 0%;
+    }
+
+    .footer-bg{
+        display: none;
+    }
+
+}

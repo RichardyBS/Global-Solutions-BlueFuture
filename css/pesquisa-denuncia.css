@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+h1,h2,h3
+{
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+}
+
+p
+{
+    font-family: "Piazzolla", serif;
+    font-size: clamp(0.929rem, 0.929rem + ((1vw - 0.2rem) * 0.856), 1.4rem);
+    font-weight: 600;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    color: #45433a;
+    background-color: #fcfbf0;
+
+}
+
+.lesquerdo-header a{
+    background-color: #0261dd;
+    border-radius: 6px;
+    color: #fff;
+    padding: 6px 15px;
+    text-decoration: none;
+}
+
+.lesquerdo-header h1, I{
+    color: #fff;
+    }
+
+.lesquerdo-header p
+{
+    padding: 2%;
+    border-left: 2px solid gray;
+    font-weight: 600;
+}
+
+.lesquerdo-header span
+{
+    color: #004AAD;
+}
+
+.home
+{
+    height: 85vh;
+    margin-bottom: 2rem;
+
+}
+
+.txt-home
+{
+    position: relative;
+    top: 30%;
+    text-align: center;
+    width: 47%;
+    padding: 3rem ;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 12px;
+    left: 43%;
+    background-color: #00114bc7;
+
+}
+
+
+.txt-home button
+{
+    padding: 3.5%;
+    width: 50%;
+    margin-top: 40px;
+    border-radius: 12px;
+    background-color: rgba(0, 100, 250, 0.568);
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+
+.txt-home p
+{
+
+    text-align: center;
+}
+
+#fundo-home
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.lado-header{
+    display: inherit;
+    align-items: center;
+    gap: 16px;
+    width: 50%;
+}
+
+.ldireito-header
+{
+    display: inherit;
+    justify-content: flex-end;
+}
+
+.ldireito-header a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.texto-meio {
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30%;
+}
+
+.home h1
+{
+
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 500;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    text-align: center;
+
+    
+}
+
+.home p
+{
+    font-size: 1.7rem ;
+}
+/* Header */
+
+/* Formulario */
+
+
+
+
+
+/* a */
+/* Cadastro */
+
+#container-cadastro
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    background-color: #004AAD;
+
+}
+
+#cadastro
+{
+    color: black;
+    width: 45%;
+    border-radius: 12px;
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 5%;
+    font-size: 1.8rem;
+    box-shadow: 5px 20px 50px #000;
+    
+}
+
+#cadastro form
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+}
+
+#cadastro form input, #cadastro button, #cadastro textarea
+{
+    padding: 4%;
+    border: none;
+    border-radius: 8px;
+    margin-top: 6%;
+    font-size: 1.5rem;
+}
+
+input::placeholder {
+    color: gray;
+    font-size: 1.5rem;
+    
+}
+
+#cadastro button
+{
+    background-color: #0065FC;
+    color: white;
+    font-size: 1.7rem;
+    cursor: pointer;
+    display: inherit;
+    justify-content: center;
+    gap: 15px;
+    transition:  transform ease-in-out 280ms;
+}
+
+#cadastro button:hover
+{
+    background-color: #001345;
+    transform: scale(1.04);
+}
+
+
+
+/*
+.FormInput {
+   
+    flex-direction: row;
+    align-items: center;
+    margin: 5%;
+    justify-content: center;
+}
+
+.itemForm textarea {
+    resize: none;
+    padding: 0 10%;
+}
+
+.FormInput input{
+    padding: 10px;
+
+}
+
+#numero-residencia {
+    width: 11%;
+}
+
+/* Formulario */
+
+

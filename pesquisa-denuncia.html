@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/denuncia.css">
+    <title>Pesquisa Denuncia</title>
+    
+</head>
+<body>
+    <header>
+        <div class="lesquerdo-header lado-header">
+            <a href="#"><h1>A<I>LL</I> Blue</h1></a>
+            <p>Para um <span>futuro azul</span> aos oceanos</p>
+        </div>
+        
+        <div class="ldireito-header lado-header">
+            <a href="integrantes.html"><h3>Integrantes</h3></a>
+            <a href="denuncia.html"><h3>Denúncia</h3></a>
+            <a href="carbono.html"><h3>Carbono</h3></a>
+            </div>
+    </header>
+    
+    <main>
+        <section id="container-form">
+            <section id="PesquisaDN">
+                <h1>Pesquisa Denuncia</h1>
+                <form method="get" id="formulario" onsubmit="return verificaDenuncia()">
+                    <input type="text" id="id-denuncia" name="id-denuncia" placeholder="Digite o ID da denúncia para ter mais informações" required >
+                    <button type="submit" >Verificar ID<i class="bi bi-arrow-return-right"></i></button>
+                    
+                </form>
+            </section>
+
+            <section id="infos-denuncia">
+                <h2>Veja os detalhes da sua denúncia</h2>
+                <h3 id="local-denuncia">Local</h3>
+                <h3 id="numero-denuncia">Número</h3>
+                <h3 id="descricao-denuncia">Descrição</h3>
+            </section>
+        </section>
+
+        
+    </main>
+    
+
+    <script src="./verifica-denuncia.js"></script>
+</body>
+</html>
