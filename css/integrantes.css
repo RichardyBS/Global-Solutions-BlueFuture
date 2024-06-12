@@ -280,7 +280,7 @@ header {
     border: solid 3px rgb(0, 0, 0);
     border-radius: 5%;
     display: flex;
-    padding: 15vh;
+    padding: 12vh;
     align-items: center;
     flex-direction: column;
     background-color:rgb(255, 255, 255);
@@ -395,11 +395,13 @@ footer h3{
     color: #45433a;
 }
 /* Footer Parceiros*/
+
 /* Check */
 @Media (min-width: 768px)
 {
-    .caixa-inf-grupo-izzi{
-        padding: 16%;
+izzi{
+     
+   padding: 16%;
     }
     .caixa-inf-grupo-izzi h2{
         font-size: 1.5em;
@@ -439,7 +441,7 @@ header h1{
 }
 
 .lesquerdo-header a {
-    width: 60%;
+
     padding: 2%;
 }
 
@@ -470,154 +472,37 @@ header h1{
         padding: 10%;
     }
     }
+    
 /* Check */
 @media (max-width: 576px)
 {
 
-header h1{
-    text-align: center;
-    font-size: 1.4em;
-}
+    header
+    {
+        padding: 5% 2%;
+    }
 
-.lesquerdo-header p{
-    font-size: 1em;
-}
+    
 
-.lesquerdo-header a {
-    display: flex;
-    padding: 2%;
-}
-
-.fotogrupo img{
-    width: 70%;
-}
-
-.caixa-inf-grupo-izzi{
-    padding: 16%;
-}
-.caixa-inf-grupo-izzi h2{
-    font-size: 1.5em;
-    text-wrap: nowrap;
-}
-.caixa-inf-grupo-izzi a{
-    font-size: 1.5em;
-    padding: 10%;
-}
-.caixa-inf-grupo-richardy h2{
-    font-size: 1.5em;
-    text-wrap: nowrap;
-}
-
-.caixa-inf-grupo-richardy{
-    padding: 12.5%;
-}
-
-.caixa-inf-grupo-richardy a{
-    font-size: 1.5em;
-    padding: 10%;
-}
-.caixa-inf-grupo-ruan h2{
-    font-size: 1.5em;
-    text-wrap: nowrap;
-}
-
-.caixa-inf-grupo-ruan{
-    padding: 12.5%;
-}
-
-.caixa-inf-grupo-ruan a{
-    font-size: 1.5em;
-    padding: 10%;
-}
-
-.footer-bg{
-    display: none;
-}
-/* check */
-/* Iphone4 */
-@media (max-width: 400px)
-{
-
-header {
-    padding: 2%;
-}
-
-header h1{
-    text-align: center;
-    font-size: 1.4em;
-}
-
-.ldireito-header h3{
-    font-size: 1em;
-}
-
-.lesquerdo-header{
-    display: flex;
-    justify-content: space-between;
-}
-
-.lesquerdo-header p{
-    display: none;
-}
-
-.lesquerdo-header a {
-    display: flex;
-    width: 80%;
-    justify-content: center;
-}
-
-.fotogrupo img{
-    width: 100%;
-}
-
-.caixa-inf-grupo-izzi{
-    padding: 9.6%;
-}
-.caixa-inf-grupo-izzi h2{
-    font-size: 1.5em;
-    text-wrap: nowrap;
-}
-.caixa-inf-grupo-izzi a{
-    font-size: 1.5em;
-    padding: 10%;
-}
-.caixa-inf-grupo-richardy h2{
-    font-size: 1.5em;
-    text-wrap: nowrap;
-}
-
-.caixa-inf-grupo-richardy{
-    padding: 5%;
-}
-
-.caixa-inf-grupo-richardy a{
-    font-size: 1.5em;
-    padding: 10%;
-}
-.caixa-inf-grupo-ruan h2{
-    font-size: 1.5em;
-    text-wrap: nowrap;
-}
-
-.caixa-inf-grupo-ruan{
-    padding: 5%;
-}
-
-.caixa-inf-grupo-ruan a{
-    font-size: 1.5em;
-    padding: 10%;
-}
-
-.footer-bg{
-    display: none;
-}
-}
-}
+    .lesquerdo-header p
+    {
+        display: none;
+    }
 
 
-/* Check */
-@Media (min-width: 768px)
-{
+    .ldireito-header h1{
+        font-size: 1em;
+    }
+
+    .ldireito-header h3{
+        font-size: 0.8em;
+    }
+
+
+    .fotogrupo img{
+        width: 70%;
+    }
+
     .caixa-inf-grupo-izzi{
         padding: 16%;
     }
@@ -625,7 +510,7 @@ header h1{
         font-size: 1.5em;
         text-wrap: nowrap;
     }
-    .caixa-inf-grupo-ruan a{
+    .caixa-inf-grupo-izzi a{
         font-size: 1.5em;
         padding: 10%;
     }
@@ -633,7 +518,12 @@ header h1{
         font-size: 1.5em;
         text-wrap: nowrap;
     }
-    .caixa-inf-grupo-ruan a{
+
+    .caixa-inf-grupo-richardy{
+        padding: 12.5%;
+    }
+
+    .caixa-inf-grupo-richardy a{
         font-size: 1.5em;
         padding: 10%;
     }
@@ -641,153 +531,45 @@ header h1{
         font-size: 1.5em;
         text-wrap: nowrap;
     }
+
+    .caixa-inf-grupo-ruan{
+        padding: 12.5%;
+    }
+
     .caixa-inf-grupo-ruan a{
         font-size: 1.5em;
         padding: 10%;
     }
-}
-/* Check */
 
-/* Check */
-@media (max-width: 992px)
-{
-
-    
-header h1{
-    text-align: center;
-    font-size: 2em;
-}
-
-.lesquerdo-header a {
-    width: 60%;
-    padding: 2%;
-}
-
-.fotogrupo img{
-    width: 70%;
-}
-
-}
-/* Check */
-
-/* Check */
-@media (max-width: 1200px)
-{
-
-    .caixa-inf-grupo-izzi{
-        padding: 10%;
+    .footer-bg{
+        display: none;
     }
-    .caixa-inf-grupo-ruan a{
-        font-size: 1.5em;
-        padding: 10%;
-    }
-    .caixa-inf-grupo-izzi a{
-        font-size: 1.5em;
-        padding: 10%;
-    }
-    .caixa-inf-grupo-richardy a{
-        font-size: 1.5em;
-        padding: 10%;
-    }
-    }
-    
-/* Check */
-@media (max-width: 576px)
-{
-
-header h1{
-    text-align: center;
-    font-size: 1.4em;
-}
-
-.lesquerdo-header p{
-    font-size: 1em;
-}
-
-.lesquerdo-header a {
-    display: flex;
-    padding: 2%;
-}
-
-.fotogrupo img{
-    width: 70%;
-}
-
-.caixa-inf-grupo-izzi{
-    padding: 16%;
-}
-.caixa-inf-grupo-izzi h2{
-    font-size: 1.5em;
-    text-wrap: nowrap;
-}
-.caixa-inf-grupo-izzi a{
-    font-size: 1.5em;
-    padding: 10%;
-}
-.caixa-inf-grupo-richardy h2{
-    font-size: 1.5em;
-    text-wrap: nowrap;
-}
-
-.caixa-inf-grupo-richardy{
-    padding: 12.5%;
-}
-
-.caixa-inf-grupo-richardy a{
-    font-size: 1.5em;
-    padding: 10%;
-}
-.caixa-inf-grupo-ruan h2{
-    font-size: 1.5em;
-    text-wrap: nowrap;
-}
-
-.caixa-inf-grupo-ruan{
-    padding: 12.5%;
-}
-
-.caixa-inf-grupo-ruan a{
-    font-size: 1.5em;
-    padding: 10%;
-}
-
-.footer-bg{
-    display: none;
-}
 /* check */
 
 /* Iphone4 */
 @media (max-width: 400px)
 {
 
-header {
-    padding: 2%;
-}
+    header
+    {
+        padding: 5% 2%;
+    }
 
-header h1{
-    text-align: center;
-    font-size: 1.4em;
-}
+    .lesquerdo-header a {
+        width: 40%;
+    }
 
-.ldireito-header h3{
-    font-size: 1em;
-}
+    .lado-header p{
+        position: none;
+    }
 
-.lesquerdo-header{
-    display: flex;
-    justify-content: space-between;
-}
+    .ldireito-header h1{
+        font-size: 1em;
+    }
 
-.lesquerdo-header p{
-    display: none;
-}
-
-.lesquerdo-header a {
-    display: flex;
-    width: 80%;
-    justify-content: center;
-}
-
+    .ldireito-header h3{
+        font-size: 0.8em;
+    }
 .fotogrupo img{
     width: 100%;
 }

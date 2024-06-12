@@ -69,15 +69,14 @@ header {
 
 .home
 {
+    padding: 5%;
     height: 85vh;
     margin-bottom: 2rem;
-
 }
 
 .txt-home
 {
     position: relative;
-    top: 30%;
     text-align: center;
     width: 47%;
     padding: 3rem ;
@@ -280,7 +279,7 @@ header {
     padding: 2%;
     background-color: #004AAD;
     border-radius: 12px;
-    height: 75vh;
+    height: 90vh;
     width: 30%;
     color: white;
 }
@@ -446,6 +445,7 @@ header {
 {
     font-weight: 600;
     color: #008344;
+    width: 50%;
 }
 
 
@@ -668,39 +668,44 @@ footer h3{
     margin-bottom: 2rem;
 }
 /* Parceiros */
-@Media (min-width: 1200px)
+
+@Media (max-width: 1200px)
 {
 
+    .txt-home
+    {
+        padding: 2rem;
+    }
 
- .maps-text{
-    font-size: 0.8em;
- }
+    .maps-text{
+        font-size: 0.8em;
+    }
 
- .maps-text span {
-    font-size: 1em;
- }
+    .maps-text span {
+        font-size: 1em;
+    }
 
-.maps-text h2 {
-   font-size: 2.5em;
-}
-
-.maps-text h3 {
-   font-size: 1.5em;
-}
-
-.informacoes-container p{
-    font-size: 1.3em;
-}
-
-.texto-alinhado h2 {
+    .maps-text h2 {
     font-size: 2.5em;
-    margin-bottom: 2%;
-}
+    }
 
-.texto-alinhado h3 {
-    font-size: 1em;
-    margin-bottom: 3%;
-}
+    .maps-text h3 {
+    font-size: 1.5em;
+    }
+
+    .informacoes-container p{
+        font-size: 1.3em;
+    }
+
+    .texto-alinhado h2 {
+        font-size: 2.5em;
+        margin-bottom: 2%;
+    }
+
+    .texto-alinhado h3 {
+        font-size: 1em;
+        margin-bottom: 3%;
+    }
 
 
 
@@ -709,47 +714,47 @@ footer h3{
 
 @media (max-width: 1080px)
 {
-.sorriso img{
-    width: none;
+    .sorriso img{
+        width: none;
+        }
+        
+    .txt-sorriso h2 {
+        font-size: 1.8em;
     }
-    
-.txt-sorriso h2 {
-    font-size: 1.8em;
-}
 
-.txt-sorriso p {
-    font-size: 1.3em;
-}
+    .txt-sorriso p {
+        font-size: 1.3em;
+    }
 
-.txt-sorriso button{
-        padding: 8% 15%;
-        font-size: 1.6em;
-}
-.imp-aqueci-txt h2{
-    font-size: 1.7em;
-}
+    .txt-sorriso button{
+            padding: 8% 15%;
+            font-size: 1.6em;
+    }
+    .imp-aqueci-txt h2{
+        font-size: 1.7em;
+    }
 
-.imp-aqueci-txt h3{
-    font-size: 1.2em;
-}
+    .imp-aqueci-txt h3{
+        font-size: 1.2em;
+    }
 
-.imp-aqueci-txt h2{
-    font-size: 1.7em;
-}
+    .imp-aqueci-txt h2{
+        font-size: 1.7em;
+    }
 
-.imp-aqueci-txt2 h3{
-    font-size: 1.2em;
-}
+    .imp-aqueci-txt2 h3{
+        font-size: 1.2em;
+    }
 
-.img-conse{
-    height: auto;
+    .img-conse{
+        height: auto;
 
-}
-.item-oceano {
-    height: 75vh;
-}
+    }
+    .item-oceano {
+        height: 75vh;
+    }
 
-}
+    }
 
 /* 1080 */
 
@@ -758,127 +763,144 @@ footer h3{
 {
 
     
-header h1{
-    text-align: center;
-    font-size: 2em;
-}
-
-.lesquerdo-header a {
-    width: 60%;
-    padding: 2%;
-}
-
-.line {
-    display: none;
-}
-
-.text-oceano h3 {
-    text-align: center;
-    width: 100%;
-}
-
-.text-oceano {
-    width: 100%;
-    margin-bottom: 5%;
-
-}
-
-.oceanos-acidos{
-    display: flex;
-    flex-direction: column;
-}
-.oceanos-acidos img {
-    width: 70%;
-}
-
-main h2{
-    font-size: 1.5em;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.item-oceano {
-    height: 50vh;
-}
-
-.sorriso img{
-display: none;
-}
-
-.txt-sorriso{
-    width: 100%;
-    padding: 5% 0 ;
-}
-.txt-sorriso h2{
-    font-size: 3em;
-}
-.txt-sorriso p{
-    font-size: 2em;
-}
-
-.txt-sorriso button{
-    padding: 5% 10%;
-}
-
-.maps-text h2{
-    font-size: 2.5em;
-}
-.maps-text {
-    width: 100%;
+    .lesquerdo-header p
+    {
+        display: none;
     }
-    
-    .maps-text h3 {
-        font-size: 1.2em;
-        }
-        
-    .maps{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .maps iframe{
-        width: 100%;
-        height: 600px;
-    }
-
-    .texto-alinhado h2 {
-        font-size: 2.5em;
-    }
-
-    .texto-alinhado p {
-        font-size: 1.5em;
-    }
-
-    .informacoes p{
-        font-size: 1em;
-    }
-
-    .imgs-infos h2{
+    header h1{
+        text-align: center;
         font-size: 2em;
     }
 
-    .impacto-aquecimento{
+    .txt-home
+    {
+        top:10%;
+    }
+
+    .home h1
+    {
+        font-size: 2rem;
+    }
+
+    .home p
+    {
+        font-size: 1.3rem;
+    }
+
+    .lesquerdo-header a {
+        width: 60%;
+        padding: 2%;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .text-oceano h3 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .text-oceano {
+        width: 100%;
+        margin-bottom: 5%;
+
+    }
+
+    .oceanos-acidos{
         display: flex;
         flex-direction: column;
+    }
+    .oceanos-acidos img {
+        width: 70%;
+    }
+
+    main h2{
+        font-size: 1.5em;
+        text-align: center;
+        display: flex;
+        justify-content: center;
         align-items: center;
         width: 100%;
     }
-    
+
+
+
+    .sorriso img{
+    display: none;
+    }
+
+    .txt-sorriso{
+        width: 100%;
+        padding: 5% 0 ;
+    }
+    .txt-sorriso h2{
+        font-size: 3em;
+    }
+    .txt-sorriso p{
+        font-size: 2em;
+    }
+
+    .txt-sorriso button{
+        padding: 5% 10%;
+    }
+
+    .maps-text h2{
+        font-size: 2.5em;
+    }
+    .maps-text {
+        width: 100%;
+        }
+        
+    .maps-text h3 {
+            font-size: 1.2em;
+            }
+            
+    .maps{
+            display: flex;
+            flex-direction: column;
+        }
+
+    .maps iframe{
+            width: 100%;
+            height: 600px;
+        }
+
+    .texto-alinhado h2 {
+            font-size: 2.5em;
+        }
+
+    .texto-alinhado p {
+            font-size: 1.5em;
+        }
+
+    .informacoes p{
+            font-size: 1em;
+        }
+
+    .imgs-infos h2{
+            font-size: 2em;
+        }
+
+    .impacto-aquecimento{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        
     .imp-aqueci-txt{
-        width: 100%;
-        border: none;
-    }
-    
+            width: 100%;
+            border: none;
+        }
+        
     .imp-aqueci-txt2{
-        display: flex;
-        padding-top: 4%;
-        margin: 0 8%;
-        width: 100%;
-    }
-    /* Ipad Mini */
+            display: flex;
+            padding-top: 4%;
+            margin: 0 8%;
+            width: 100%;
+        }
+        /* Ipad Mini */
 @media (max-width: 768px)
 {
 
@@ -907,17 +929,13 @@ display: none;
         font-size: 0.7em;
     }
 
-    .oceanos-acidos{
-        font-size: 0.5em;
-    }
+    
     
     .oceanos-acidos p{
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
-    .item-oceano{
-        height: 44vh;
-    }
+    
 
     .item-oceano p{
         font-size: 1em;
@@ -939,29 +957,28 @@ display: none;
     }
 
     .txt-sorriso h2{
-        font-size: 1.5em;
+        font-size: 2em;
+    }
+
+
+    .txt-sorriso p
+    {
+        font-size: 1.5rem;
     }
     /*  */
 
-    .maps-text h2{
-        font-size: 1.5em;
-    }
+   
 
-    .maps-text p{
-        font-size: 0.7em;
-    }
-
+    
     .maps-text span{
         font-size: 1em;
     }
 
-    .maps-text h3{
-        font-size: 1.2em;
-    }
+    
 
     .maps iframe {
-        width: 50%;
-        height: 30vh;
+        width: 80%;
+        height: 50vh;
     }
 
     .texto-alinhado h2 {
@@ -979,9 +996,31 @@ display: none;
     .imgs-infos h2{
         font-size: 1.4em;
     }
-    /* Iphone4 */
+
+    /* foi */
 @media (max-width: 568px)
 {
+
+    header
+    {
+        padding: 5% 2%;
+    }
+
+    .lesquerdo-header a {
+        width: 40%;
+    }
+
+    .lado-header p{
+        position: none;
+    }
+
+    .ldireito-header h1{
+        font-size: 1em;
+    }
+
+    .ldireito-header h3{
+        font-size: 0.8em;
+    }
 
     .txt-home h1{
         font-size: 0.8em;
@@ -998,6 +1037,10 @@ display: none;
 
     .home{
         margin: 0;
+    }
+
+    .imp-aqueci-txt h2 span {
+        width: 60%;
     }
 
     .home button{
@@ -1029,6 +1072,7 @@ display: none;
     .text-oceano {
         width: 100%;
         margin: 5%;
+        text-align: center;
     }
 
     .oceanos-acidos img{
@@ -1107,7 +1151,11 @@ display: none;
             margin: 0 8%;
             width: 100%;
         }
-        
+
+
+        .imp-aqueci-txt h2 {
+            font-size: 1.5em;
+        }
         .imp-aqueci-txt2 h3{
             font-size: 1em;
             margin-bottom: 5%;
@@ -1167,9 +1215,7 @@ display: none;
             display: none;
         }
         
-        header {
-            padding: 5%;
-        }
+        
         
         .ldireito-header a{
             font-size: 0.8em;
@@ -1188,13 +1234,31 @@ display: none;
         .item-oceano{
             margin-bottom: 5%;
             width: 100%;
-            height: 55vh;
+            height: 78vh;
         }
         
+        .text-oceano h3, .text-oceano h2{
+            width: 100%;
+        }
 
+        footer {
+            display: none;
+        };
 }
+    /* foi */
 
+    /* iphone 4 */
+    @media (max-width: 400px)
+    {
+        .lesquerdo-header a {
+            width: 50%;
+        }
 
+        footer {
+            display: none;
+        };
+    }
+    /* iphone 4 */
 }
 
 }
